@@ -1,0 +1,10 @@
+mtk_java_prebuilt_library {
+    jars: [
+        "duraspeed.jar",
+    ],
+    mtk_product_line: "tablet",
+    mtk_src_path: "vendor/mediatek/proprietary/frameworks/opt/duraspeed",
+    mtk_type: "dex_import",
+    name: "duraspeed",
+}
+
